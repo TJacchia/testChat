@@ -1,23 +1,24 @@
 <html>
-  <script type='text/javascript'>
-  	function initEmbeddedMessaging() {
-  		try {
-  			embeddedservice_bootstrap.settings.language = 'it'; // For example, enter 'en' or 'en-US'
-  
-  			embeddedservice_bootstrap.init(
-  				'00D0D0000008dtD',
-  				'Live_Chat_Getrix_Test_1',
-  				'https://immobiliareit--quality.sandbox.my.site.com/ESWLiveChatGetrixTest1700226973367',
-  				{
-  					scrt2URL: 'https://immobiliareit--quality.sandbox.my.salesforce-scrt.com'
-  				}
-  			);
-  		} catch (err) {
-  			console.error('Error loading Embedded Messaging: ', err);
-  		}
-  	};
-  </script>
-  <script type='text/javascript' src='https://immobiliareit--quality.sandbox.my.site.com/ESWLiveChatGetrixTest1700226973367/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+  <body>
+    <script type='text/javascript'>
+    	function initEmbeddedMessaging() {
+    		try {
+    			embeddedservice_bootstrap.settings.language = 'it'; // For example, enter 'en' or 'en-US'
+    
+    			embeddedservice_bootstrap.init(
+    				'00D0D0000008dtD',
+    				'Live_Chat_Getrix_Test_1',
+    				'https://immobiliareit--quality.sandbox.my.site.com/ESWLiveChatGetrixTest1700226973367',
+    				{
+    					scrt2URL: 'https://immobiliareit--quality.sandbox.my.salesforce-scrt.com'
+    				}
+    			);
+    		} catch (err) {
+    			console.error('Error loading Embedded Messaging: ', err);
+    		}
+    	};
+    </script>
+    <script type='text/javascript' src='https://immobiliareit--quality.sandbox.my.site.com/ESWLiveChatGetrixTest1700226973367/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
-  
+  </body>
 </html>
